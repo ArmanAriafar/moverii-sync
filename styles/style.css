@@ -1,0 +1,15 @@
+svg {
+    display: inline;
+}
+.ant-menu-item {
+    padding-bottom: 0.5rem !important;
+}
+
+.svgIcon {
+    fill: #959499;
+}
+
+li.styleChild:hover .svgIcon {
+    fill: #ff9f1c !important;
+    transition: 500ms;
+}
