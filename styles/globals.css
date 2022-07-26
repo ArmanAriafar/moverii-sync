@@ -5,3 +5,36 @@
 .ant-menu-item{
     padding-bottom: .5rem !important;
 }
+
+.swiper-button-next:after{
+
+    color:#FF9F1C ;
+    font-size: 1.5rem !important
+}
+.swiper-button-prev:after{
+
+    color:#FF9F1C ;
+    font-size:  1.5rem !important
+    
+
+}
+.swiper-button-prev.swiper-button-disabled{
+
+    display: none;
+    
+    }
+    .swiper-button-next.swiper-button-disabled{
+
+        display: none;
+        
+        }
+        @media only screen and (min-width: 900px){   .fade {
+        
+            width: 20%;
+            height: 100%;
+            background: linear-gradient(to right, rgba(255,255,255,0) -77%,rgba(255,255,255,1) 100%);
+            top: 0;
+            z-index: 1;
+            right:-10px
+        
+          }}
